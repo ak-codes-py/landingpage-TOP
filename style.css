@@ -117,6 +117,7 @@ ul{
 }
 .descp{
     display: flex;
+    flex-wrap: wrap;
 }
 .img-2,.des{
     padding: 20px;
@@ -124,7 +125,7 @@ ul{
 .img-2 img{
     border-radius: 5px;
     height: 250px;
-    width: 250px;
+    width: 260px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     border-radius: 50%;
 }
@@ -149,5 +150,7 @@ ul{
 }
 
 /*ABOUT US end*/
+
+/* QOUTES */
 
 
