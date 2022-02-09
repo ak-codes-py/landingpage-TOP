@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@300&display=swap');
 /*font-family: 'Roboto', sans-serif;
   font-family: 'Raleway', sans-serif;
 */
@@ -73,7 +74,7 @@ ul{
     transition: 0.3s;
 }
 .brand-pic:hover{
-    transform: rotate(25deg);
+    transform: rotate(45deg);
 }
 .btn{
     padding: 12px 17px;
@@ -104,7 +105,13 @@ ul{
 }
 .sss{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: 0.3s;
+    cursor: pointer;
 }
+.sss:hover{
+    transform: scale(1.1);
+}
+
 /* main design end */
 
 /*ABOUT US start*/
@@ -189,7 +196,7 @@ ul{
     font-size: 22px;
     text-transform: uppercase;
     text-align: center;
-    margin: 40px 600px;
+    margin: 40px 620px;
     padding: 5px;
     font-family: 'Raleway', sans-serif;
     border-bottom: 2px solid red;
@@ -217,4 +224,44 @@ ul{
     padding: 10px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Contacts*/
+#contacts{
+    margin-top: 200px;
+    padding: 20px;
+    background: #0be09d;
+    height: 49vh;
+    padding: 40px 150px;
+
+}
+.conmain{
+    background-image: linear-gradient(to right top, #3186a8, #3493ba, #37a1cb, #39afde, #3cbdf0);
+    height: 26vh;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    margin-top: 75px;
+    padding: 0 100px;
+}
+.conty{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.btn-3{
+    text-transform: uppercase;
+    border: none;
+    margin-left: 300px;
+    padding: 12px 18px; 
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.2s;
+}
+.btn-3:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #333;
 }
