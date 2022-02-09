@@ -25,7 +25,6 @@ ul{
     color: #fff;
     text-decoration: none;
     font-size: 14px;
-    font-style: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: uppercase;
     transition: 0.3s;
@@ -106,6 +105,11 @@ ul{
 
 /*ABOUT US start*/
 #aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.about{
     font-size: 22px;
     text-transform: uppercase;
     text-align: center;
@@ -114,10 +118,7 @@ ul{
     font-family: 'Raleway', sans-serif;
     border-bottom: 2px solid red;
     width: fit-content;
-}
-.descp{
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 .img-2,.des{
     padding: 20px;
@@ -130,10 +131,10 @@ ul{
     border-radius: 50%;
 }
 .des{
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
-    margin-top: 60px;
-    padding: 20px 50px;
+    padding: 20px 40px;
 }
 .btn-2{
     padding: 10px 18px;
@@ -148,6 +149,11 @@ ul{
 .btn-2:hover{
     background-color: #545252;
 }
+.test{
+    display: flex;
+   align-items: center;
+}
+
 
 /*ABOUT US end*/
 
