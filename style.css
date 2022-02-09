@@ -184,3 +184,37 @@ ul{
     margin-top: 10px;
     letter-spacing: 1px;
 }
+/* Our products design */
+.prod{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 600px;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid red;
+    width: 210px;
+    letter-spacing: 1px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0 90px;
+}
+.cardmain{
+    border: 2px solid #112857;
+    padding: 95px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 20px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+.pext{
+    margin-right: 40px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
