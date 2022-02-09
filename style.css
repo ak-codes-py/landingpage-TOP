@@ -91,15 +91,16 @@ ul{
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 14px;
 }
 .brands{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    gap: 50px;
 }
 .sss{
-    padding: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 /* main design end */
 
@@ -113,7 +114,38 @@ ul{
     font-family: 'Raleway', sans-serif;
     border-bottom: 2px solid red;
     width: fit-content;
-
+}
+.descp{
+    display: flex;
+}
+.img-2,.des{
+    padding: 20px;
+}
+.img-2 img{
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    border-radius: 50%;
+}
+.des{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    padding: 20px 50px;
+}
+.btn-2{
+    padding: 10px 18px;
+    border: none;
+    background-color: #f23f54;
+    color: #fff; 
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+.btn-2:hover{
+    background-color: #545252;
 }
 
 /*ABOUT US end*/
